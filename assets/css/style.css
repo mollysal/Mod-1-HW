@@ -1,13 +1,16 @@
+/* Entire site has boader box with padding of 0 & margin of 0 */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* Uses hex code to define color */
+
+/* Body background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header Modifications: padding, font, color, & text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Header h1 will be inline with Horiseon text, text size defined */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Header "SEO" in Horiseon color changed */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Header links modification: padding, margin, float, font & text size */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Header url style */
 .header div ul {
     list-style-type: none;
 }
 
+/* Header url list modification */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* a tag text color & text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* p tag text size */
 p {
     font-size: 16px;
 }
 
+/* Figure or Hero Modications: height, width, margin, image link & image size */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,16 +70,20 @@ p {
     background-position: center;
 }
 
+/* Float Left margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Float Right margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 /* Added section to follow HTML Semantic Structure */
+/* Section Modification: width, display, margin */
 section {
     width: 75%;
     display: inline-block;
@@ -76,6 +91,7 @@ section {
 }
 
 /* Added aside to follow HTML Semantic Structure */
+/* Aside Modifications: margin, padding, clear, flot, width, hight, font, background color */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -87,54 +103,64 @@ aside {
     background-color: #2589bd;
 }
 
+/* Benefit-lead margin & text color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Benefit-brand margin & text color */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Benefit-cost margin & text color */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Benefit-lead text margin & text alignment */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Benefit-brand text margin & text alignment */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Benefit-cost text margin & text alignment */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Benefit-lead image modifications */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Benefit-brand image modifications */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Benefit-cost image modifications */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* SEO  blue box modification: margin, padding, height, font, background color, text color */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -144,6 +170,7 @@ aside {
     color: #ffffff;
 }
 
+/* Online reputation blue box modification: margin, padding, height, font, background color, text color */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,6 +180,7 @@ aside {
     color: #ffffff;
 }
 
+/* Social Media blue box modification: margin, padding, height, font, background color, text color */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,33 +190,40 @@ aside {
     color: #ffffff;
 }
 
+/* SEO image max height */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Online Reputation image max height */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Social Media image max height */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* SEO h2 margin & font size */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Online Reputation h2 margin & font size */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Social Media h2 margin & font size */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer Modification: padding, clear, font, text alignment */
 .footer {
     padding: 30px;
     clear: both;
@@ -196,6 +231,7 @@ aside {
     text-align: center;
 }
 
+/* Footer h2 font size */
 .footer h2 {
     font-size: 20px;
 }
