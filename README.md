@@ -9,7 +9,7 @@ I learned to utilize semantic elements and modify another users code.
 
 > **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
 
-![Sample Reference Image](Mod-1-HW/assets/images/01-html-css-git-homework-demo.png)
+![Sample Reference Image](/assets/images/01-html-css-git-homework-demo.png)
 
 ## Credits
 Sample code from UofM Bootcamp Course.
